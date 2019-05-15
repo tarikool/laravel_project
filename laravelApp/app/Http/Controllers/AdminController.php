@@ -21,15 +21,9 @@ class AdminController extends Controller
     {
         $users = User::all();
 
-//        foreach ($users as $user) {
-//
-//            echo $user->photo.'<br>';
-//        }
-//
-//        return dd( $users);
-
         return view('admin.users.index', compact('users') );
 
+//        return dd( $users);
     }
 
     /**
@@ -144,6 +138,8 @@ class AdminController extends Controller
 
                 $photo->update( [ 'file' =>$name ] );
                 $input['photo_id'] = $photo_ID;
+                unlink(public_path(). $user->photo->file );
+
             }
             else {
                 $photo = Photo::create([ 'file' => $name ]);
@@ -155,7 +151,7 @@ class AdminController extends Controller
 
         $user->update( $input );
 
-        $request->session()->flash('user_updated', $userName.'\'s data has been Updated');
+        $request->session()->flash('user_updated', $userName.'\'s Profile has been Updated');
 
         return redirect('/admin/users');
 
@@ -172,6 +168,8 @@ class AdminController extends Controller
     public function destroy( $id )
     {
         $user = User::findOrFail( $id );
+        unlink(public_path(). $user->photo->file );
+
         $user->delete();
 
         Session::flash('user_deleted', $user->name.' has been Deleted');

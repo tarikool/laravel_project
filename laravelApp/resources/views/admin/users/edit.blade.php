@@ -4,7 +4,7 @@
 @section('content')
 
 
-    <h1>Lets Edit Niggas</h1>
+    <h1>Edit User</h1>
 
     <div class="row"> {{--First Row --}}
 
@@ -54,7 +54,7 @@
             </div>
 
             <div class="form-group">
-                {!! Form::label('photo_id', 'File') !!}
+                {!! Form::label('photo_id', 'Photo') !!}
                 {!! Form::file('photo_id',null, ['class' => 'form-control']) !!}
             </div>
 
