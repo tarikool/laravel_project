@@ -17,7 +17,7 @@
             <div class="col-xs-4"></div>
 
             <div class="col-xs-4">
-                {!! Form::open(['method' => 'DELETE', 'action' => [ 'AdminController@destroy', $user->id ]]) !!}
+                {!! Form::open(['method' => 'DELETE', 'action' => [ 'AdminUsersController@destroy', $user->id ]]) !!}
 
                 <div class="form-group">
                     {!! Form::submit('Delete', ['class' => 'btn btn-danger']) !!}
@@ -31,7 +31,7 @@
 
 
         <div class="col-sm-9">  {{--Edit Form--}}
-            {!! Form::model( $user ,['method' => 'PATCH', 'action' => ['AdminController@update', $user->id ], 'files' => true ]) !!}
+            {!! Form::model( $user ,['method' => 'PATCH', 'action' => ['AdminUsersController@update', $user->id ], 'files' => true ]) !!}
 
             <div class="form-group">
                 {!! Form::label('name', 'Name') !!}

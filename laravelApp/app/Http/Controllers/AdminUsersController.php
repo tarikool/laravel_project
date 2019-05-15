@@ -10,13 +10,8 @@ use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
 
-class AdminController extends Controller
+class AdminUsersController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function index()
     {
         $users = User::all();
@@ -49,7 +44,7 @@ class AdminController extends Controller
         $userName = $request->name;
 
 
-        if( trim( $user->password = '' ) ){
+        if( trim( $request->password ) == ''  ){
             $input = $request->except('password');
 
         }else {
@@ -117,7 +112,7 @@ class AdminController extends Controller
         $photo_ID = $user->photo_id;
         $userName = $user->name;
 
-        if( trim( $user->password = '' ) ){
+        if( trim( $request->password) == ''  ){
             $input = $request->except('password');
 
         }else {
@@ -129,20 +124,22 @@ class AdminController extends Controller
         $data = $request->file( 'photo_id' );
         if ( $data ) {
 
-            $name = strtok( $userName,' ').'_'.$data->getClientOriginalName();
-            $data->move( 'images', $name);
+
+            $newPhoto = strtok( $userName,' ').'_'.$data->getClientOriginalName();
+            $data->move( 'images', $newPhoto);
 
             $photo =  Photo::find( $photo_ID );
 
             if( $photo ) {
 
-                $photo->update( [ 'file' =>$name ] );
+                $oldPhoto = $photo->file;
+                unlink(public_path().$oldPhoto );
+                $photo->update( [ 'file' =>$newPhoto ] );
                 $input['photo_id'] = $photo_ID;
-                unlink(public_path(). $user->photo->file );
 
             }
             else {
-                $photo = Photo::create([ 'file' => $name ]);
+                $photo = Photo::create([ 'file' => $newPhoto ]);
                 $input['photo_id'] = $photo->id;
             }
 
@@ -176,6 +173,9 @@ class AdminController extends Controller
 
         return redirect('/admin/users');
 
-
     }
+
+
+
+
 }
