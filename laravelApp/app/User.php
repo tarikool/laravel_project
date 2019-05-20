@@ -4,7 +4,6 @@ namespace App;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-
 class User extends Authenticatable
 {
     use Notifiable;
@@ -42,12 +41,16 @@ class User extends Authenticatable
 
     public function isAdmin()
     {
-        if( $this->role->name == 'Administrator' && $this->is_active == 1 )
-        {
-            return true;
-        }
+        $roleName = Role::findOrFail( $this->role_id )->name;
+
+            if ( $roleName == 'Administrator' && $this->is_active == 1) {
+
+                return true;
+            }
+
 
         return false;
+
     }
 
 }

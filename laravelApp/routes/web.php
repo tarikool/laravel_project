@@ -11,6 +11,7 @@
 |
 */
 
+use App\Post;
 use App\Role;
 use App\User;
 use Illuminate\Support\Facades\DB;
@@ -51,3 +52,14 @@ Route::group(['middleware' => 'admin'], function (){
 
 });
 
+
+Route::get('/insertPosts', function() {
+
+    Post::create([
+        'title' => 'Nishat',
+        'body' => 'ily sm that it hurts all my body'
+    ]);
+
+    return 'Posts created';
+
+});

@@ -4,6 +4,7 @@ namespace App\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Session;
 
 class Admin
 {
@@ -24,6 +25,8 @@ class Admin
                 return $next($request);
             }
         }
+
+        Session::flash('restriction', ' You are not an Administrator. Users only roles with Administrator can view the page ');
 
         return redirect('/');
     }
