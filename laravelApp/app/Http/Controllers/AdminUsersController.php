@@ -126,8 +126,6 @@ class AdminUsersController extends Controller
 
 
             $newPhoto = strtok( $userName,' ').'_'.$data->getClientOriginalName();
-            $data->move( 'images', $newPhoto);
-
             $photo =  Photo::find( $photo_ID );
 
             if( $photo ) {
@@ -136,18 +134,15 @@ class AdminUsersController extends Controller
                 unlink(public_path().$oldPhoto );
                 $photo->update( [ 'file' =>$newPhoto ] );
                 $input['photo_id'] = $photo_ID;
-
-            }
-            else {
+            } else {
                 $photo = Photo::create([ 'file' => $newPhoto ]);
                 $input['photo_id'] = $photo->id;
             }
 
+            $data->move( 'images', $newPhoto);
         }
 
-
         $user->update( $input );
-
         $request->session()->flash('user_updated', $userName.'\'s Profile has been Updated');
 
         return redirect('/admin/users');
@@ -166,9 +161,8 @@ class AdminUsersController extends Controller
     {
         $user = User::findOrFail( $id );
         unlink(public_path(). $user->photo->file );
-
+        $user->photo->delete();
         $user->delete();
-
         Session::flash('user_deleted', $user->name.' has been Deleted');
 
         return redirect('/admin/users');

@@ -38,6 +38,12 @@ Route::get('/insert', function () {
         ]);
 
         $user->update([ 'role_id' => 1, 'is_active' =>1 ]);
+
+        DB::table('categories')->insert([
+            [ 'name'=> 'PHP' ],
+            [ 'name'=> 'Laravel' ],
+            [ 'name'=> 'Javascript' ],
+        ]);
     }
 
     return redirect('/');
@@ -46,7 +52,6 @@ Route::get('/insert', function () {
 
 Route::group(['middleware' => 'admin'], function (){
 
-//    Route::resource('admin/users', 'AdminController');
     Route::resource('admin/users', 'AdminUsersController');
     Route::resource('admin/posts', 'AdminPostsController');
 
@@ -59,6 +64,7 @@ Route::get('/insertPosts', function() {
         'title' => 'Nishat',
         'body' => 'ily sm that it hurts all my body'
     ]);
+
 
     return 'Posts created';
 
