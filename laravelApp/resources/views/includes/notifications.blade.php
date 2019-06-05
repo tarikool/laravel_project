@@ -40,3 +40,11 @@
         {{ session( 'post_deleted' ) }}
     </div>
 @endif
+
+
+@if( session('categories_created') )
+    <div class="alert alert-success">
+        {{ session( 'categories_created' ) }}
+    </div>
+@endif
+
