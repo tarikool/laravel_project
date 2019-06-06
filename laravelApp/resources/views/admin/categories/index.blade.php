@@ -20,6 +20,8 @@
             
         </div>
 
+       
+
 
         <div class="col-xs-6">
             <table class="table table-striped table-dark">
@@ -37,7 +39,7 @@
                         <tbody>
                         <tr>
                             <td>{{ $category->id}}</td>
-                            <td>{{ $category->name}}</td>
+                            <td><a href="{{ route('categories.edit', $category->id ) }}">{{ $category->name}}</a></td>
                             <td>{{$category->created_at ? $category->created_at->diffForHumans() : 'No Date Availabel'}}</td>
                         </tr>
                         </tbody>

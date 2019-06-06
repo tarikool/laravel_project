@@ -48,3 +48,14 @@
     </div>
 @endif
 
+@if( session('categories_updated') )
+    <div class="alert alert-success">
+        {{ session( 'categories_updated') }}
+    </div>
+@endif
+
+@if( session('category_deleted') )
+    <div class="alert alert-danger">
+        {{ session( 'category_deleted' ) }}
+    </div>
+@endif

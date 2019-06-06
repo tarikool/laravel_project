@@ -159,9 +159,10 @@ class AdminPostsController extends Controller
         unlink(public_path(). $post->photo->file );
         $post->photo->delete();
         $post->delete();
-
         Session::flash('post_deleted', 'Post '.$post->title.' has been Deleted');
+        
         return redirect('/admin/posts');
 
     }
 }
+    
