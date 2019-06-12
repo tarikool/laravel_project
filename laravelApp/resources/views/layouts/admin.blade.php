@@ -24,6 +24,8 @@
     <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    @yield('styles')
+
 
 
 
@@ -174,11 +176,11 @@
                         <a href="#"><i class="fa fa-wrench fa-fw"></i>Media<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="/media">All Media</a>
+                                <a href="{{ route('media.index') }}">All Media</a>
                             </li>
 
                             <li>
-                                <a href="">Upload Media</a>
+                                <a href="{{ route('media.create') }}">Upload Media</a>
                             </li>
 
                         </ul>
@@ -355,6 +357,7 @@
 <script src="{{ asset('js/app.js') }}"></script>
 
 
+@yield('scripts')
 
 @yield('footer')
 

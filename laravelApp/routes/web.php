@@ -49,16 +49,6 @@ Route::get('/insert', function () {
     return redirect('/');
 });
 
-
-Route::group(['middleware' => 'admin'], function (){
-
-    Route::resource('admin/users', 'AdminUsersController');
-    Route::resource('admin/posts', 'AdminPostsController');
-    Route::resource('admin/categories', 'AdminCategoriesController');
-
-});
-
-
 Route::get('/insertPosts', function() {
 
     Post::create([
@@ -70,3 +60,15 @@ Route::get('/insertPosts', function() {
     return 'Posts created';
 
 });
+
+Route::group(['middleware' => 'admin'], function (){
+
+    Route::resource('admin/users', 'AdminUsersController');
+    Route::resource('admin/posts', 'AdminPostsController');
+    Route::resource('admin/categories', 'AdminCategoriesController');
+    Route::resource('admin/media', 'AdminMediasController');
+//    Route::get('admin/media/upload', [ 'as' => 'media.upload', 'uses' => 'AdminMediasController@store']);
+
+});
+
+

@@ -14,4 +14,14 @@ class Photo extends Model
     {
         return $this->img_path . $photo;
     }
+
+
+    public function user()
+    {
+        $this->hasOne('App\User');
+    }
+
+
+
+
 }
