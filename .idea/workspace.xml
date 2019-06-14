@@ -28,17 +28,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/includes/notifications.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
+            <state relative-caret-position="1411">
               <caret line="83" column="30" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/media/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -46,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravelApp/app/Http/Controllers/AdminPostsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+            <state relative-caret-position="1853">
+              <caret line="116" selection-start-line="116" selection-end-line="116" />
               <folding>
                 <element signature="e#40#57#0#PHP" expanded="true" />
               </folding>
@@ -55,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravelApp/app/Http/Controllers/AdminMediasController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
+            <state relative-caret-position="765">
               <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
               <folding>
                 <element signature="e#40#54#0#PHP" expanded="true" />
@@ -145,10 +145,10 @@
         <option value="$PROJECT_DIR$/laravelApp/app/Photo.php" />
         <option value="$PROJECT_DIR$/laravelApp/routes/web.php" />
         <option value="$PROJECT_DIR$/laravelApp/resources/views/layouts/admin.blade.php" />
-        <option value="$PROJECT_DIR$/laravelApp/resources/views/admin/media/create.blade.php" />
         <option value="$PROJECT_DIR$/laravelApp/resources/views/admin/media/index.blade.php" />
         <option value="$PROJECT_DIR$/laravelApp/resources/views/includes/notifications.blade.php" />
         <option value="$PROJECT_DIR$/laravelApp/app/Http/Controllers/AdminMediasController.php" />
+        <option value="$PROJECT_DIR$/laravelApp/resources/views/admin/media/create.blade.php" />
       </list>
     </option>
   </component>
@@ -373,12 +373,14 @@
       <workItem from="1559360248483" duration="1799000" />
       <workItem from="1559642298922" duration="3505000" />
       <workItem from="1560246383172" duration="9960000" />
-      <workItem from="1560303753665" duration="9772000" />
+      <workItem from="1560303753665" duration="10564000" />
+      <workItem from="1560481280493" duration="1339000" />
+      <workItem from="1560524492436" duration="1201000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114079000" />
+    <option name="totallyTimeSpent" value="117411000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -393,14 +395,14 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4926931" visible="true" weight="0.24054463" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4926931" visible="true" weight="0.24810892" />
       <window_info id="Structure" order="1" sideWeight="0.5024155" side_tool="true" weight="0.18381241" />
       <window_info id="Favorites" order="2" sideWeight="0.5073069" side_tool="true" weight="0.19288956" />
       <window_info id="npm" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" x="22" y="275" width="1322" height="177" id="Event Log" order="2" sideWeight="0.5075643" side_tool="true" weight="0.25039124" />
-      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.4924357" visible="true" weight="0.25039124" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" sideWeight="0.4924357" visible="true" weight="0.25039124" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.3286385" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32237872" />
@@ -713,30 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/app/Http/Controllers/AdminPostsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
-          <folding>
-            <element signature="e#40#57#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/media/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/includes/notifications.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="83" column="30" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/media/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -744,13 +722,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/includes/notifications.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" column="30" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/app/Http/Controllers/AdminPostsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1853">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+          <folding>
+            <element signature="e#40#57#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/laravelApp/app/Http/Controllers/AdminMediasController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="765">
           <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
           <folding>
             <element signature="e#40#54#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/media/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
