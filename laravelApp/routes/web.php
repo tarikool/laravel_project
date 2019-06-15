@@ -61,6 +61,8 @@ Route::get('/insertPosts', function() {
 
 });
 
+Route::get( '/post/{id}', ['as' => 'home.post', 'uses' => 'AdminPostsController@post'] );
+
 Route::group(['middleware' => 'admin'], function (){
 
     Route::resource('admin/users', 'AdminUsersController');
@@ -68,6 +70,8 @@ Route::group(['middleware' => 'admin'], function (){
     Route::resource('admin/categories', 'AdminCategoriesController');
     Route::resource('admin/media', 'AdminMediasController');
 //    Route::get('admin/media/upload', [ 'as' => 'media.upload', 'uses' => 'AdminMediasController@store']);
+    Route::resource('admin/comments', 'PostCommentsController');
+    Route::resource('admin/comment/reply', 'CommentRepliesController');
 
 });
 
