@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Category;
+use App\Comment;
 use App\Http\Requests\PostsRequest;
 use App\Photo;
 use App\Post;
@@ -61,6 +62,8 @@ class AdminPostsController extends Controller
         }
 
 //        $posts = Post::create( $input );
+//        return $input;
+
 
         $user->posts()->create( $input );
         $request->session()->flash('post_created', ' New post has been created ' );
@@ -169,8 +172,9 @@ class AdminPostsController extends Controller
     public function post($id)
     {
         $post = Post::findOrFail( $id );
+        $comments = Comment::all();
 
-        return view('post', compact('post'));
+        return view('post', compact('post', 'comments'));
     }
     
     

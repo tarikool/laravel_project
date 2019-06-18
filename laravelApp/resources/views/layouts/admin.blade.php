@@ -156,7 +156,7 @@
                             </li>
 
                             <li>
-{{--                                <a href="{{ route('home.post') }}">Post</a>--}}
+                                <a href="{{ route('home.post', 2 ) }}">Post</a>
                             </li>
 
                         </ul>
