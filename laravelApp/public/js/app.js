@@ -981,7 +981,7 @@ var app = new Vue({
 
 $(".comment-reply-container .toggle-reply").click(function () {
   $(this).hide();
-  $(this).next().slideToggle("slow");
+  $("#reply-form").slideToggle("slow");
 });
 
 /***/ }),

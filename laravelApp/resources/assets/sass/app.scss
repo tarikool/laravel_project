@@ -23,12 +23,22 @@
 #comment-reply {
   cursor: pointer;
   text-decoration: none;
-  padding-right: 80px;
+  padding-left: 20px;
 }
 
 #reply-form {
   display: none;
-  padding-left: 80px;
   color: #2a88bd;
+  padding-right: 80px;
 }
 
+.removed {
+  font-size: 10px;
+  color: slategray;
+}
+
+.post-image {
+  display: block;
+  max-width: 33%;
+  height: auto;
+}

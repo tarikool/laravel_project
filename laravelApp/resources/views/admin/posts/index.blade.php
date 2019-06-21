@@ -35,7 +35,7 @@
         @endforeach
         </table>
     @else
-        <h2>No post available </h2>
+        <h2 class="text-center">No post available </h2>
     @endif
 
 

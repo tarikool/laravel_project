@@ -131,7 +131,8 @@ class AdminUsersController extends Controller
             if( $photo ) {
 
                 $oldPhoto = $photo->file;
-                unlink(public_path().$oldPhoto );
+                if ( file_exists(public_path(). $oldPhoto))
+                    unlink(public_path().$oldPhoto );
                 $photo->update( [ 'file' =>$newPhoto ] );
                 $input['photo_id'] = $photo_ID;
             } else {
@@ -160,6 +161,8 @@ class AdminUsersController extends Controller
     public function destroy( $id )
     {
         $user = User::findOrFail( $id );
+
+        if ( file_exists(public_path(). $user->photo->file))
         unlink(public_path(). $user->photo->file );
         $user->photo->delete();
         $user->delete();

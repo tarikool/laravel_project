@@ -124,7 +124,8 @@ class AdminPostsController extends Controller
                 if( $photo ) {
 
                     $oldPhoto = $photo->file;
-                    unlink(public_path().$oldPhoto );
+                    if ( file_exists(public_path(). $oldPhoto))
+                        unlink(public_path().$oldPhoto );
                     $photo->update( [ 'file' =>$newPhoto ] );
                     $input['photo_id'] = $photoID;
 
@@ -159,6 +160,7 @@ class AdminPostsController extends Controller
     public function destroy($id)
     {
         $post = Post::findOrFail( $id );
+        if (file_exists(public_path(). $post->photo->file))
         unlink(public_path(). $post->photo->file );
         $post->photo->delete();
         $post->delete();

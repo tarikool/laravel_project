@@ -18,7 +18,7 @@ class CreateCommentRepliesTable extends Migration
             $table->integer('comment_id')->unsigned()->index();
             $table->integer('user_id')->unsigned()->index();
             $table->string('author');
-            $table->string('body');
+            $table->text('body');
             $table->integer('is_active')->default(1);
             $table->string('email');
             $table->timestamps();

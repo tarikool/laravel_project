@@ -37,7 +37,7 @@
             @endforeach
         </table>
     @else
-        <h2>No comment available </h2>
+        <h2 class="text-center">No comment available </h2>
     @endif
 
 

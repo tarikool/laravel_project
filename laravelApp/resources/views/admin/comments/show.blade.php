@@ -31,6 +31,7 @@
                                         <small>{{ $comment->created_at->format('F d, Y \a\t g:i A') }}</small>
                                     </h4>
                                     <p>{{ $comment->body }}</p>
+                                    <a href="{{ route( 'replies.show', $comment->id ) }}">view replies</a>
                                 </div>
                             </div>
                         </td>
@@ -41,7 +42,7 @@
             @endforeach
         </table>
     @else
-        <h2>No comment available for this post <a class="view-comment" href="{{ route( 'home.post', $post->id ) }}"> view post</a></h2>
+        <h2 class="text-center">No comment available for this post <a class="view-comment" href="{{ route( 'home.post', $post->id ) }}"> view post</a></h2>
     @endif
 
 

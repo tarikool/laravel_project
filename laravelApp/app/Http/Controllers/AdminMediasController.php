@@ -43,6 +43,7 @@ class AdminMediasController extends Controller
     public function destroy($id)
     {
         $photo = Photo::findOrFail( $id );
+        if (file_exists(public_path(). $photo->file))
         unlink(public_path(). $photo->file );
         $photo->delete();
         Session::flash('photo_deleted', 'Photo has been deleted' );

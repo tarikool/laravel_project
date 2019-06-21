@@ -36,7 +36,7 @@
             @endforeach
         </table>
     @else
-        <h2>No user available </h2>
+        <h2 class="text-center">No user available</h2>
     @endif
 
 @endsection

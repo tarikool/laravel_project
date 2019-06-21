@@ -22,7 +22,7 @@
     <hr>
 
     <!-- Preview Image -->
-    <img height="50" src="{{$post->photo ? $post->photo->file : 'http://placehold.it/400x400' }}" alt="">
+    <img class="img-rounded post-image" src="{{$post->photo ? $post->photo->file : 'http://placehold.it/400x400' }}" alt="">
 
     <hr>
 
@@ -54,7 +54,8 @@
                     <h4 class="media-heading">{{ $comment->author }}
                         <small>{{ $comment->created_at->format('F d, Y \a\t g:i A') }}</small>
                     </h4>
-                    <p>{{ $comment->body }}</p>
+                    <div class="comment-reply-container">
+                        <p>{!! $comment->is_active > 0 ? $comment->body : '<p class ="removed">'."Comment has been removed".'</p>' !!} </p>
 
                     <!-- Nested Comment -->
                     @if( $comment->replies )
@@ -69,18 +70,18 @@
                                     <h4 class="media-heading">{{ $reply->user->name }}
                                         <small>{{ $comment->created_at->format('F d, Y \a\t g:i A') }}</small>
                                     </h4>
-                                    <p>{{ $reply->body }}</p>
+                                    <p>{!! $reply->is_active > 0 ? $reply->body : '<p class ="removed">'."Comment has been removed".'</p>' !!} </p>
+                                </div>
+                            </div>
                         @endforeach
 
-                        @foreach( $comment->replies as $reply )
-                                    </div>
-                                </div>
-                        @endforeach
+{{--                        @foreach( $comment->replies as $reply )--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                        @endforeach--}}
+
                     @endif
                 <!--Nested Comment End -->
-
-                    <div class="comment-reply-container">
-                        <a id="comment-reply" class="toggle-reply pull-right">Reply</a>  {{-- functionality on app.js --}}
 
                         <div id="reply-form" class="col-sm-6">
                             @include('admin.comments.form.comment_reply')

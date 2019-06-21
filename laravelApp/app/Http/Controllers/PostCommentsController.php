@@ -99,7 +99,7 @@ class PostCommentsController extends Controller
         if ( $input == 0 ){
             $request->session()->flash('comment_disapproved', 'Comment has been Disapproved! Please, Approve it to make it available in the Post');
         }else {
-            $request->session()->flash('comment_approved', 'Comment Has Been Approved');
+            $request->session()->flash('comment_approved', 'Comment has been Approved');
         }
 
         return redirect()->back();

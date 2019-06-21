@@ -138,3 +138,28 @@
         {{ session('commentReply_created') }}
     </div>
 @endif
+
+
+
+{{--Reply--}}
+@if( session('reply_approved') )
+    <div class="alert alert-info">
+        <button type="button" class="close" data-dismiss="alert">×</button>
+        {{ session('reply_approved') }}
+    </div>
+@endif
+
+@if( session('reply_disapproved') )
+    <div class="alert alert-warning">
+        <button type="button" class="close" data-dismiss="alert">×</button>
+        {{ session('reply_disapproved') }}
+    </div>
+@endif
+
+
+@if( session('reply_deleted') )
+    <div class="alert alert-danger">
+        <button type="button" class="close" data-dismiss="alert">×</button>
+        {{ session('reply_deleted') }}
+    </div>
+@endif
