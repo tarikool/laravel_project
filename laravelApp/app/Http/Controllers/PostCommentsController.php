@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Comment;
+use App\CommentReply;
 use App\Post;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -18,7 +19,7 @@ class PostCommentsController extends Controller
     public function index()
     {
         $comments = Comment::all();
-        return view('admin.comments.index', compact('comments'));
+        return view('admin.comments.index', compact('comments') );
     }
 
     /**
@@ -44,15 +45,12 @@ class PostCommentsController extends Controller
         if( $user && $request->body )
         {
             $input = [
-                'post_id' => $request->post_id,
+                'user_id' => $user->id,
                 'author' => $user->name,
                 'email' => $user->email,
+                'post_id' => $request->post_id,
                 'body' => $request->body
             ];
-
-            $input['photo_id'] = $user->photo_id;
-
-
 
             Comment::create( $input );
             $request->session()->flash('comment_created', 'Your comment has been posted');

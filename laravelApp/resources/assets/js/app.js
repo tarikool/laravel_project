@@ -20,3 +20,9 @@ Vue.component('example', require('./components/Example.vue'));
 const app = new Vue({
     el: '#app'
 });
+
+
+$(".comment-reply-container .toggle-reply").click(function () {
+    $(this).hide();
+    $(this).next().slideToggle("slow");
+});

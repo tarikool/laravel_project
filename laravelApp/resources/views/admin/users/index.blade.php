@@ -4,21 +4,21 @@
 
     @include('includes.notifications')
 
-    <table class="table table-striped table-dark">
-        <thead>
-        <tr>
-            <th scope="col">Id</th>
-            <th scope="col">Name</th>
-            <th scope="col">Photo</th>
-            <th scope="col">Role</th>
-            <th scope="col">Status</th>
-            <th scope="col">Email</th>
-            <th scope="col">Created</th>
-            <th scope="col">Updated</th>
-        </tr>
-        </thead>
+    @if( count($users)>0 )
 
-        @if( $users )
+        <table class="table table-striped table-dark">
+            <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Photo</th>
+                <th scope="col">Role</th>
+                <th scope="col">Status</th>
+                <th scope="col">Email</th>
+                <th scope="col">Created</th>
+                <th scope="col">Updated</th>
+            </tr>
+            </thead>
 
             @foreach( $users as $user )
                 <tbody>
@@ -34,7 +34,9 @@
                 </tr>
                 </tbody>
             @endforeach
-        @endif
-    </table>
+        </table>
+    @else
+        <h2>No user available </h2>
+    @endif
 
 @endsection

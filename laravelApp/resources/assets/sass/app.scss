@@ -7,3 +7,28 @@
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+
+.view-comment{
+  font-size: 15px;
+  text-decoration: none;
+}
+
+#comment-body {
+  color: #5e5e5e;
+  font-size: 62%;
+}
+
+#comment-reply {
+  cursor: pointer;
+  text-decoration: none;
+  padding-right: 80px;
+}
+
+#reply-form {
+  display: none;
+  padding-left: 80px;
+  color: #2a88bd;
+}
+

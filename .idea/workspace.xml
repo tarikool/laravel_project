@@ -15,53 +15,33 @@
     <favorites_list name="projectLaravel" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/post.blade.php">
+        <entry file="file://$PROJECT_DIR$/laravelApp/app/Http/Controllers/AdminPostsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/comments/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/comments/show.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+            <state relative-caret-position="621">
+              <caret line="174" column="36" selection-start-line="174" selection-start-column="36" selection-end-line="174" selection-end-column="36" />
               <folding>
-                <element signature="e#140#167#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravelApp/app/Http/Controllers/PostCommentsController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-              <folding>
-                <element signature="e#40#56#0#PHP" expanded="true" />
+                <element signature="e#40#57#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/laravelApp/app/Http/Controllers/AdminPostsController.php">
+        <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/users/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="183" column="4" lean-forward="true" selection-start-line="183" selection-start-column="4" selection-end-line="183" selection-end-column="4" />
-              <folding>
-                <element signature="e#40#57#0#PHP" expanded="true" />
-              </folding>
+              <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/posts/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="37" selection-start-line="37" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -99,11 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/User.php" />
-        <option value="$PROJECT_DIR$/resources/views/errors/404.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/errors/503.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Middleware/Admin.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/users/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/includes/notifications.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
@@ -130,26 +105,31 @@
         <option value="$PROJECT_DIR$/laravelApp/resources/views/admin/media/index.blade.php" />
         <option value="$PROJECT_DIR$/laravelApp/app/Http/Controllers/AdminMediasController.php" />
         <option value="$PROJECT_DIR$/laravelApp/resources/views/admin/media/create.blade.php" />
-        <option value="$PROJECT_DIR$/laravelApp/database/migrations/2019_06_14_154835_create_comment_replies_table.php" />
         <option value="$PROJECT_DIR$/laravelApp/app/Post.php" />
-        <option value="$PROJECT_DIR$/laravelApp/app/CommentReply.php" />
         <option value="$PROJECT_DIR$/laravelApp/resources/views/layouts/blog-home.blade.php" />
         <option value="$PROJECT_DIR$/laravelApp/resources/views/layouts/blog-post.blade.php" />
-        <option value="$PROJECT_DIR$/laravelApp/resources/views/layouts/admin.blade.php" />
         <option value="$PROJECT_DIR$/laravelApp/database/migrations/2019_06_15_130421_add_photo_id_column_to_comments_table.php" />
-        <option value="$PROJECT_DIR$/laravelApp/routes/web.php" />
-        <option value="$PROJECT_DIR$/laravelApp/database/migrations/2019_06_14_154801_create_comments_table.php" />
-        <option value="$PROJECT_DIR$/laravelApp/app/Comment.php" />
         <option value="$PROJECT_DIR$/laravelApp/resources/views/admin/comments/form/comments_approval.blade.php" />
-        <option value="$PROJECT_DIR$/laravelApp/resources/views/includes/notifications.blade.php" />
         <option value="$PROJECT_DIR$/laravelApp/resources/views/admin/comments/form/comment_delete.blade.php" />
         <option value="$PROJECT_DIR$/laravelApp/resources/views/admin/comments/form/comment_create.blade.php" />
-        <option value="$PROJECT_DIR$/laravelApp/resources/views/admin/comments/index.blade.php" />
-        <option value="$PROJECT_DIR$/laravelApp/resources/views/admin/posts/index.blade.php" />
-        <option value="$PROJECT_DIR$/laravelApp/resources/views/admin/comments/show.blade.php" />
-        <option value="$PROJECT_DIR$/laravelApp/resources/views/post.blade.php" />
+        <option value="$PROJECT_DIR$/laravelApp/routes/web.php" />
+        <option value="$PROJECT_DIR$/laravelApp/resources/views/includes/notifications.blade.php" />
+        <option value="$PROJECT_DIR$/laravelApp/database/migrations/2019_06_14_154801_create_comments_table.php" />
+        <option value="$PROJECT_DIR$/laravelApp/database/migrations/2019_06_14_154835_create_comment_replies_table.php" />
+        <option value="$PROJECT_DIR$/laravelApp/app/Http/Controllers/CommentRepliesController.php" />
+        <option value="$PROJECT_DIR$/laravelApp/app/Comment.php" />
+        <option value="$PROJECT_DIR$/laravelApp/app/CommentReply.php" />
         <option value="$PROJECT_DIR$/laravelApp/app/Http/Controllers/PostCommentsController.php" />
         <option value="$PROJECT_DIR$/laravelApp/app/Http/Controllers/AdminPostsController.php" />
+        <option value="$PROJECT_DIR$/laravelApp/resources/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/laravelApp/resources/views/admin/comments/form/comment_reply.blade.php" />
+        <option value="$PROJECT_DIR$/laravelApp/resources/views/post.blade.php" />
+        <option value="$PROJECT_DIR$/laravelApp/resources/views/layouts/admin.blade.php" />
+        <option value="$PROJECT_DIR$/laravelApp/resources/assets/sass/app.scss" />
+        <option value="$PROJECT_DIR$/laravelApp/resources/views/admin/posts/index.blade.php" />
+        <option value="$PROJECT_DIR$/laravelApp/resources/views/admin/comments/show.blade.php" />
+        <option value="$PROJECT_DIR$/laravelApp/resources/views/admin/comments/index.blade.php" />
+        <option value="$PROJECT_DIR$/laravelApp/resources/views/admin/users/index.blade.php" />
       </list>
     </option>
   </component>
@@ -233,6 +213,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -277,6 +258,13 @@
               <item name="projectLaravel" type="462c0819:PsiDirectoryNode" />
               <item name="laravelApp" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectLaravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectLaravel" type="462c0819:PsiDirectoryNode" />
+              <item name="laravelApp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -286,6 +274,33 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectLaravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectLaravel" type="462c0819:PsiDirectoryNode" />
+              <item name="laravelApp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="comments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectLaravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectLaravel" type="462c0819:PsiDirectoryNode" />
+              <item name="laravelApp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectLaravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectLaravel" type="462c0819:PsiDirectoryNode" />
+              <item name="laravelApp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="posts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projectLaravel" type="b2602c69:ProjectViewProjectNode" />
@@ -300,16 +315,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -367,11 +382,18 @@
       <workItem from="1560748495412" duration="588000" />
       <workItem from="1560831259046" duration="592000" />
       <workItem from="1560867160312" duration="18182000" />
+      <workItem from="1560921025772" duration="1186000" />
+      <workItem from="1560954556322" duration="9855000" />
+      <workItem from="1560993457630" duration="14432000" />
+      <workItem from="1561021920616" duration="6349000" />
+      <workItem from="1561048930619" duration="589000" />
+      <workItem from="1561086276735" duration="1050000" />
+      <workItem from="1561109070202" duration="3522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178975000" />
+    <option name="totallyTimeSpent" value="215958000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -384,15 +406,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4926931" visible="true" weight="0.27912253" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4926931" visible="true" weight="0.18078668" />
       <window_info id="Structure" order="1" sideWeight="0.5024155" side_tool="true" weight="0.18381241" />
       <window_info id="Favorites" order="2" sideWeight="0.5073069" side_tool="true" weight="0.19288956" />
       <window_info id="npm" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" x="22" y="275" width="1322" height="177" id="Event Log" order="2" sideWeight="0.5075643" side_tool="true" weight="0.25039124" />
-      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.4924357" visible="true" weight="0.25039124" />
+      <window_info anchor="bottom" x="22" y="275" width="1322" height="177" id="Event Log" order="2" sideWeight="0.5098336" side_tool="true" visible="true" weight="0.25039124" />
+      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.49016643" visible="true" weight="0.25039124" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.3286385" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32237872" />
@@ -412,148 +435,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/comments/replies/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/media/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/app/Http/Controllers/AdminMediasController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
-          <folding>
-            <element signature="e#40#54#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/database/migrations/2019_05_25_153214_create_categories_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/database/migrations/2019_05_15_182259_create_posts_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="17" column="71" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/app/CommentReply.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/app/Http/Middleware/Admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding>
-            <element signature="e#39#51#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/media/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Web design/courses/completed/[FreeTutorials.Us] Udemy - php-with-laravel-for-beginners-become-a-master-in-laravel/31 Application - Comments/blog-home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="222" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/layouts/blog-home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="222" selection-start-line="222" selection-end-line="222" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Web design/courses/completed/[FreeTutorials.Us] Udemy - php-with-laravel-for-beginners-become-a-master-in-laravel/31 Application - Comments/blog-post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="243" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/layouts/blog-post.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="156" selection-start-line="156" selection-end-line="156" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/back up/admin/categories/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/back up/admin/categories/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/posts/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/back up/admin/users/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/back up/admin/users/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/back up/admin/posts/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/back up/admin/posts/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/back up/admin/posts/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/layouts/admin.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="159" column="33" selection-start-line="159" selection-start-column="33" selection-end-line="159" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/database/migrations/2019_06_15_130421_add_photo_id_column_to_comments_table.php" />
-    <entry file="file://$PROJECT_DIR$/laravelApp/database/migrations/2019_06_15_131317_add_phooto_id_column_to_comments_table.php" />
-    <entry file="file://$PROJECT_DIR$/laravelApp/database/migrations/2019_06_14_154835_create_comment_replies_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravelApp/app/Http/Requests/UsersRequest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-150">
@@ -575,10 +456,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/database/migrations/2019_06_14_154801_create_comments_table.php">
+    <entry file="file://$PROJECT_DIR$/laravelApp/app/Http/Controllers/AdminUsersController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="394">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/comments/form.comments_approval.blade.php" />
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/comments/form/comment_delete.blade.php" />
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/comments/form/comment_create.blade.php" />
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/comments/form/approval.blade.php" />
+    <entry file="file://$PROJECT_DIR$/laravelApp/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="e#631#1156#1#PHP" />
+            <element signature="e#1187#1342#1#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/database/migrations/2019_06_14_154835_create_comment_replies_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/includes/notifications.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="138" column="6" selection-start-line="138" selection-start-column="6" selection-end-line="138" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/database/migrations/2019_05_14_203559_create_roles_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -589,41 +506,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/laravelApp/database/migrations/2019_05_14_205755_create_photos_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/database/migrations/2019_06_14_154801_create_comments_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/database/migrations/2019_05_15_182259_create_posts_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
+          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/app/Comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/app/CommentReply.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/app/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/app/Http/Controllers/CommentRepliesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-626">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
           <folding>
-            <element signature="e#631#1156#1#PHP" />
-            <element signature="e#1187#1342#1#PHP" />
+            <element signature="e#40#61#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/app/Http/Controllers/AdminUsersController.php">
+    <entry file="file://$PROJECT_DIR$/laravelApp/public/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
-        </state>
+        <state relative-caret-position="-816" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/comments/form.comments_approval.blade.php" />
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/posts/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/includes/notifications.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="128" column="34" selection-start-line="128" selection-start-column="34" selection-end-line="128" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/comments/form/comment_delete.blade.php" />
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/comments/form/comment_create.blade.php" />
     <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/comments/form/comments_approval.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -631,82 +577,169 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/comments/form/approval.blade.php" />
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/comments/form/create.blade.php">
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/comments/form/delete.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/posts/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="25" column="89" selection-start-line="25" selection-start-column="89" selection-end-line="25" selection-end-column="89" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/comments/replies/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/app/Comment.php">
+    <entry file="file://$PROJECT_DIR$/laravelApp/public/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/users/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="27" column="55" lean-forward="true" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/app/Post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/comments/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        <state relative-caret-position="-5202">
           <folding>
-            <element signature="e#140#167#0#HTML" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/comments/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/laravelApp/public/js/libs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/assets/js/libs/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/posts/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/users/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/users/create.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/post.blade.php">
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/posts/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/media/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+        <state relative-caret-position="-79" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/media/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-65" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/categories/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/categories/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-167" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/layouts/admin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1805">
+          <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/comments/form/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/comments/form/comment_reply.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="80" selection-start-line="1" selection-start-column="80" selection-end-line="1" selection-end-column="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravelApp/app/Http/Controllers/PostCommentsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="-1425">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
           <folding>
             <element signature="e#40#56#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/layouts/blog-home.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/assets/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/webpack.mix.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/layouts/blog-post.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/post.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/laravelApp/app/Http/Controllers/AdminPostsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="183" column="4" lean-forward="true" selection-start-line="183" selection-start-column="4" selection-end-line="183" selection-end-column="4" />
+        <state relative-caret-position="621">
+          <caret line="174" column="36" selection-start-line="174" selection-start-column="36" selection-end-line="174" selection-end-column="36" />
           <folding>
             <element signature="e#40#57#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/comments/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/comments/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/posts/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="37" selection-start-line="37" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravelApp/resources/views/admin/users/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
         </state>
       </provider>
     </entry>

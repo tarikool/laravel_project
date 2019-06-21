@@ -131,3 +131,10 @@
         {{ session('comment_deleted') }}
     </div>
 @endif
+
+@if( session('commentReply_created') )
+    <div class="alert alert-info">
+        <button type="button" class="close" data-dismiss="alert">×</button>
+        {{ session('commentReply_created') }}
+    </div>
+@endif
