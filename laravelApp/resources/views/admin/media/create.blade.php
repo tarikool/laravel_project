@@ -10,9 +10,7 @@
 
     <h1>Upload Media</h1>
         {!! Form::open(['method' => 'POST', 'action' => 'AdminMediasController@store', 'class' => 'dropzone' ]) !!}
-            <div class="form-group">
-                {!! Form::submit('Upload', ['class' => 'btn btn-primary']) !!}
-            </div>
+
         {!! Form::close() !!}
 @stop
 

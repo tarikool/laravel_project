@@ -161,7 +161,7 @@ class AdminPostsController extends Controller
     {
         $post = Post::findOrFail( $id );
         if (file_exists(public_path(). $post->photo->file))
-        unlink(public_path(). $post->photo->file );
+            unlink(public_path(). $post->photo->file );
         $post->photo->delete();
         $post->delete();
         Session::flash('post_deleted', 'Post '.$post->title.' has been Deleted');

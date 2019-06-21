@@ -9,12 +9,6 @@
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
 
-
-.view-comment{
-  font-size: 15px;
-  text-decoration: none;
-}
-
 #comment-body {
   color: #5e5e5e;
   font-size: 62%;
@@ -32,6 +26,11 @@
   padding-right: 80px;
 }
 
+.view-comment{
+  font-size: 15px;
+  text-decoration: none;
+}
+
 .removed {
   font-size: 10px;
   color: slategray;
@@ -41,4 +40,10 @@
   display: block;
   max-width: 33%;
   height: auto;
+}
+
+
+p {
+  margin: 0 0 10px;
+  padding-right: 20%;
 }

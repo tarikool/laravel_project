@@ -4,9 +4,10 @@
 @section('content')
     @include('includes.notifications')
 
-    <table class="table table-striped table-dark">
+    @if( count($photos)>0 )
+        <table class="table table-striped table-dark">
         <thead>
-        <tr>
+            <tr>
             <th scope="col">Id</th>
             <th scope="col">Photo</th>
             <th scope="col">Created</th>
@@ -14,7 +15,6 @@
         </tr>
         </thead>
 
-        @if( $photos )
 
             @foreach( $photos as $photo )
                 <tbody>
@@ -33,8 +33,10 @@
                 </tr>
                 </tbody>
             @endforeach
-        @endif
-    </table>
+        </table>
+    @else
+        <h2 class="text-center">Photo doesn't exist</h2>
+    @endif
 
 
 

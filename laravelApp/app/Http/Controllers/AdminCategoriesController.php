@@ -44,7 +44,7 @@ class AdminCategoriesController extends Controller
 
         if( $data ){
             Category::create( $data );
-            $request->session()->flash('categories_created', 'Categories has been Created Succesfully');
+            $request->session()->flash('categories_created', 'Categories has been Created Successfully');
         }
 
         return redirect('/admin/categories');
